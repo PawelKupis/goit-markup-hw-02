@@ -6,6 +6,22 @@
 body {
     font-family: var(--main-font);
 } 
+/* ########### MENU ############## */
+.navinavigation-list {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+
+color: #212121;
+
+}
+
+.navigation-list-link:hover
+.navigation-list-link:focus{
+    color: var(--main-color);
+}
+
 /* ########### HEDER ############## */
 .header{
     background: #2F303A;
@@ -14,11 +30,22 @@ body {
 .header-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.333;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.header-btn {
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
 
