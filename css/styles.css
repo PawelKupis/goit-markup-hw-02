@@ -6,21 +6,44 @@
 body {
     font-family: var(--main-font);
 } 
+
 /* ########### MENU ############## */
-.navinavigation-list {
+.logo-menu-item
+{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.navigation-list-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.142;
 letter-spacing: 0.02em;
-
 color: #212121;
-
 }
 
-.navigation-list-link:hover
-.navigation-list-link:focus{
+.navigation-list-link:hover,
+.navigation-list-link:focus {
     color: var(--main-color);
 }
+.mail,
+.phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.mail:hover,
+.phone-number:hover {
+    color: var(--main-color);
+}
+
+/* ########### MENU ############## */
+
 
 /* ########### HEDER ############## */
 .header{
