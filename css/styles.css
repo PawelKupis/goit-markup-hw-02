@@ -11,7 +11,21 @@ body {
 a {
     text-decoration: none;
   }
+/* ########### COMPONENT ############## */
+.header-btn,
+.filters-list-btn{
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.header-btn:hover,
+.header-btn:focus, 
+.filters-list-btn:hover,
+.filters-list-btn:focus{
+background: var(--main-color);
+color: #FFFFFF;
+}
 
+/* ########### END COMPONENT ############## */
 
 /* ########### MENU ############## */
 .menu-logo-item
@@ -44,7 +58,9 @@ color: #212121;
     color: var(--description);
 }
 .menu-mail:hover,
-.menu-phonenumber:hover {
+.menu-mail:focus,
+.menu-phonenumber:hover,
+.menu-phonenumber:focus {
     color: var(--main-color);
 }
 
@@ -74,16 +90,9 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #212121;
-background: #F5F4FA;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 }
-.header-btn:hover,
-.header-btn:focus {
-background: var(--main-color);
-color: #FFFFFF;
 
-}
 /* ########### END HEDER ############## */
 
 /* ########### MAIN ############## */
@@ -145,3 +154,30 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]{
     color: #FFFFFF;
 }
 /* ########### END FOOTER ############## */
+
+/* ########### PORTFOLIO ############## */
+.filters-list-btn{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.projects-list-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+.projects-list-type{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--description);
+}
+/* ########### END PORTFOLIO ############## */
