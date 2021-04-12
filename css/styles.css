@@ -2,11 +2,15 @@
     --main-font: font-family: 'Roboto', sans-serif;
     --secondary-font: font-family: 'Raleway', sans-serif;
     --main-color: #2196F3;
+    --description: #757575;
 }
 body {
     font-family: var(--main-font);
     color: #212121;
 } 
+a {
+    text-decoration: none;
+  }
 
 
 /* ########### MENU ############## */
@@ -37,7 +41,7 @@ color: #212121;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--description);
 }
 .menu-mail:hover,
 .menu-phonenumber:hover {
@@ -90,14 +94,13 @@ color: #FFFFFF;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
 .strengths-about {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--description);
 }
 .whatwedo-title,
 .ourteam-title {
@@ -107,17 +110,38 @@ color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.03em;
 }
+.ourteam-list-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.ourteam-list-job{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--description);
+}
 
 
 /* ########### END MAIN ############## */
 
-
-
-
 /* ########### FOOTER ############## */
-.address {
-
-    font-style: normal;
+footer {
+    background: #2F303A;
 }
-
+.address-list-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]{
+    color: #FFFFFF;
+}
 /* ########### END FOOTER ############## */
