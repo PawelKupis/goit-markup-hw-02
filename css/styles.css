@@ -32,7 +32,7 @@ color: #FFFFFF;
 {
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,192;
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
@@ -53,7 +53,7 @@ color: #212121;
 .menu-phonenumber {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,142;
     letter-spacing: 0.02em;
     color: var(--description);
 }
@@ -84,7 +84,7 @@ color: #212121;
 .header-btn {
 font-weight: bold;
 font-size: 16px;
-line-height: 30px;
+line-height: 1,875;
 display: flex;
 align-items: center;
 text-align: center;
@@ -100,14 +100,14 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .strengths-title {
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,142;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .strengths-about {
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,714;
     letter-spacing: 0.03em;
     color: var(--description);
 }
@@ -115,21 +115,21 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .ourteam-title {
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,166;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .ourteam-list-name{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,187;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .ourteam-list-job{
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,187;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--description);
@@ -146,13 +146,18 @@ footer {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,714;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]{
     color: #FFFFFF;
 }
+.address-list-link:hover,
+.address-list-link:focus{
+    color: var(--main-color);
+}
+
 /* ########### END FOOTER ############## */
 
 /* ########### PORTFOLIO ############## */
@@ -160,7 +165,7 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,625;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -169,14 +174,14 @@ a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 1,666;
     letter-spacing: 0.06em;
 }
 .projects-list-type{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,875;
     letter-spacing: 0.03em;
     color: var(--description);
 }
