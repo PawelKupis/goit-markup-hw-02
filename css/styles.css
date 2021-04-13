@@ -24,6 +24,7 @@ a {
 .filters-list-btn:hover,
 .filters-list-btn:focus{
 background: var(--main-color);
+color: var(--white);
 }
 
 /* ########### END COMPONENT ############## */
