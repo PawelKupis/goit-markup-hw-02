@@ -38,6 +38,9 @@ a {
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
+.menu-logo-accent {
+  color: var(--text-default);
+}
 
 .navigation-list-link {
   font-weight: 500;
@@ -147,11 +150,14 @@ footer {
 }
 a[href="https://goo.gl/maps/HhbNM7JacB6x19Nx8"]
 {
-  color: #ffffff;
+  color: var(--white);
 }
 .address-list-link:hover,
 .address-list-link:focus {
   color: var(--main-color);
+}
+.footer-logo-accent {
+  color: var(--white);
 }
 
 /* ########### END FOOTER ############## */
